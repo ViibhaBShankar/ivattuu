@@ -1,0 +1,17 @@
+HelloWorld.java
+public class HelloWorld{
+public static void main(string[] args){
+system.out.
+FROM openjdk:17
+WORKDIR /app
+copy hellow world.java .
+run javac hello world.java
+CMD["java","helloworld"]
+
+
+from hginx:latest
+run rm -rf /usr/share/nginx/html/*
+copy ./usr/share/nginx/html
+EXPOSE 80
+
+docker run -d -p 8080:80 folder name
